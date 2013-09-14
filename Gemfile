@@ -16,7 +16,6 @@ group :development do
   gem "tux"
 end
 
-
 group :development, :test do
   gem 'rspec', '2.13.0'
   gem 'guard', '1.7.0'

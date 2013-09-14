@@ -7,9 +7,9 @@ require 'spec_helper'
 describe "my first test" do
   subject { page }
 
-  describe "Home page" do
+   describe "Home page" do
     before { visit '/first' }
-    it { should have_content('xxx') }
+    it { should have_content('Hello World') }
   end
 end
 
