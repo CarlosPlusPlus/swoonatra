@@ -4,7 +4,9 @@ require 'spork'
 ENV['RACK_ENV'] = 'test'                    # force the environment to 'test'
 
 Spork.prefork do
-  require File.join(File.dirname(__FILE__), '..', 'myapp.rb')
+  
+  #### change app.rb to your app name####
+  require File.join(File.dirname(__FILE__), '..', 'app.rb')
 
   require 'rubygems'
   require 'sinatra'

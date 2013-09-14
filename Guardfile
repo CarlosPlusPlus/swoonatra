@@ -9,7 +9,7 @@ guard 'spork' do
   watch('spec/support/')
 
   ### Specify the name of your here
-  watch('myapp.rb')           # for example, reload spork when myapp.rb is changed
+  watch('app.rb')           # for example, reload spork when app.rb is changed
 end
 
 guard 'rspec', :wait => 60, :all_after_pass => false, :cli => '--drb' do
@@ -19,5 +19,5 @@ guard 'rspec', :wait => 60, :all_after_pass => false, :cli => '--drb' do
   watch(%r{^spec/support/(.+)\.rb$})          { "spec" }
 
   ### Specify the name of your here
-  watch('myapp.rb')                           { "spec" }
+  watch('app.rb')                           { "spec" }
 end

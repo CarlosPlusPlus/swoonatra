@@ -18,8 +18,8 @@ end
 
 
 group :development, :test do
-  gem 'rspec'
-  gem 'guard'
+  gem 'rspec', '2.13.0'
+  gem 'guard', '1.7.0'
   gem 'guard-rspec', '2.5.2'
 
   # spork gems
@@ -35,3 +35,4 @@ group :test do
   gem 'rb-fsevent', '0.9.1', :require => false
   gem 'growl', '1.0.3'
 end
+
