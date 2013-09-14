@@ -30,13 +30,12 @@ module AppName
     # Routes
     # => define controller actions for application.
 
-    #uncomment to pass first test
-    # get '/' do
-    #   erb :index
-    # end
+    get '/' do
+      erb :index
+    end
 
-    get '/first'
-      "Hello World"
+    get '/first' do
+      #make pass
     end
 
     # Helpers

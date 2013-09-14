@@ -9,11 +9,8 @@ describe "my first test" do
 
   describe "Home page" do
     before { visit '/first' }
-    it { should have_content('Hello World') }
+    it { should have_content('xxx') }
   end
 end
 
 # Rack/test example
-
-
-# Tests will fail until the
