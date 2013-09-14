@@ -32,12 +32,6 @@ group :test do
 
   ###### System-dependent gems
   # Mac OSX
-  # gem 'rb-fsevent', '0.9.1', :require => false
-  # gem 'growl', '1.0.3'
+  gem 'rb-fsevent', '0.9.1', :require => false
+  gem 'growl', '1.0.3'
 end
-
-FOR README
-FOR TESTING:
-COMMIT ADD GEMS FOR TESTING, MODIFY README
-ADD spec/requests/spec_helper.rb for all of the tests
-  
