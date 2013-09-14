@@ -34,6 +34,11 @@ module AppName
       erb :index
     end
 
+    # For Example Test:
+    # get '/first' do
+    #   "Hello World"
+    # end
+
     # Helpers
     # => define helper methods for application.
 

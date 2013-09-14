@@ -1,0 +1,5 @@
+# Command line options passed for when rspec is executes
+
+--colour
+--format progress
+--drb
