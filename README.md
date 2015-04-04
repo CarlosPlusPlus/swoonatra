@@ -63,7 +63,6 @@ Once you are ready to launch your application, perform the following steps:
 - `heroku addons:add heroku-postgresql:dev` to initialize a Heroku postgreSQL database.
 - `heroku config` to see the `[HEROKU_POSTGRESQL_COLOR_URL]`, needed for the next step.
 - `heroku pg:promote [HEROKU_POSTGRESQL_COLOR_URL]` to set primary database.
-- `heroku labs:enable user-env-compile` to prvoide ENV variables during precompilation.
 - `git push heroku master` to push your application up to Heroku.
 - `heroku open` to open the application and view it on Heroku.
 
