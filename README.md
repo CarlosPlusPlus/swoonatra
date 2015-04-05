@@ -5,7 +5,7 @@ Check out the website **[HERE](http://www.sinatrarb.com/)** and **[GitHub Repo](
 
 At a high level, this template comes with the following features:
 
-- A **modular** Sinatra app using **Ruby 2.1.0** built in to get you started fast.
+- A **modular** Sinatra app using **Ruby 2.1.5** built in to get you started fast.
 - Local development, testing and production use **PostgreSQL** for easy Heroku integration.
 - Support for **ActiveRecord** model inheritance and database migrations.
 - Debugging tools like **Better Errors**, **Pry Debugger**, and **Sinatra Reloader**.
@@ -110,7 +110,7 @@ Here are the gems included with this template:
 
 - [better_errors](https://github.com/charliesome/better_errors)
 - [binding_of_caller](https://github.com/banister/binding_of_caller)
-- [pry-debugger](https://github.com/nixme/pry-debugger)
+- [jazz_fingers](https://github.com/plribeiro3000/jazz_fingers)
 - [tux](https://github.com/cldwalker/tux)
 
 ---
