@@ -1,7 +1,5 @@
-require 'spec_helper'
-
-describe 'Concern Examples' do
-  it 'should be accessible in RSpec' do
-    ModuleName.should be_a_kind_of(Module)
+describe 'Concern' do
+  it 'is accessible via RSpec' do
+    expect( ModuleName ).to be_a(Module)
   end
 end

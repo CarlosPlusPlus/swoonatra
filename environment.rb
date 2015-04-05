@@ -4,10 +4,8 @@ require './config/authentication' if File.exists?('./config/authentication.rb')
 # Include Debug Capabilities in Development
 configure :development, :test do
   require 'sinatra/reloader'
-
   require 'better_errors'
   require 'binding_of_caller'
-  require 'pry-debugger'
 
   use BetterErrors::Middleware
   BetterErrors.application_root = File.expand_path('..', __FILE__)
@@ -17,7 +15,6 @@ configure :development, :test do
 end
 
 # Database Configuration & Setup
-
 configure :development, :test, :production do
  db = URI.parse(ENV['DATABASE_URL'] || 'postgres:///localhost/mydb')
 
