@@ -26,21 +26,21 @@ Here are a few sections on how you can get started with this template.
 
 #### >>> GET UP AND RUNNING
 
+If you've never used Heroku before, follow this **[Getting Started with Ruby Guide](https://devcenter.heroku.com/articles/getting-started-with-ruby)**. Make sure to get the **Heroku Toolbelt** installed.
+
 In order to use this template:
 
 1.  Clone the repository via: `git clone git@github.com:CarlosPlusPlus/swoonatra.git`
 2.  `cd` into the repository and remove the .git folder: `rm -rf .git`
-3.  Initialize folder as a Git repository and push up to a created repository on GitHub:
+3.  Initialize folder as a Git repository:
   	- `git init`
 	- `git add .`
 	- `git commit -m "First commit."`
-	- `git remote add origin git@github.com:[**Username**]/[**Repository Name**].git`
-	- `git push -u origin master`
 4.  Ensure you have **PostgreSQL** installed on your machine.
 	- If not installed and on a MAC, use Homebrew via Terminal: `brew install postgresql`
 5. Run a `bundle install` to install all gem dependencies.
-6. Run `rackup` to start your local server.
-7. Visit `localhost:9292` in your favorite browser.
+6. Run `foreman start` to start your local server.
+7. Visit `localhost:5000` in your favorite browser.
 
 All set and good to go for local development.
 
@@ -54,10 +54,7 @@ In **production**, the database will automatically connect with the Heroku **pos
 
 ### { Deployment to Heroku }
 
-If you've never used Heroku before, follow this **[Quick Start Guide](https://devcenter.heroku.com/articles/quickstart)** to get setup.
-For more technical detail, take a look **[HERE](https://devcenter.heroku.com/articles/getting-started-with-ruby)**.
-
-Once you are ready to launch your application, perform the following steps:
+With the **Heroku Toolbelt** in installed, perform the following steps:
 
 - `heroku create` to create an application on Heroku.
 - `heroku addons:create heroku-postgresql` to initialize a Heroku postgreSQL database.
