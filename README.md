@@ -60,9 +60,8 @@ For more technical detail, take a look **[HERE](https://devcenter.heroku.com/art
 Once you are ready to launch your application, perform the following steps:
 
 - `heroku create` to create an application on Heroku.
-- `heroku addons:add heroku-postgresql:dev` to initialize a Heroku postgreSQL database.
-- `heroku config` to see the `[HEROKU_POSTGRESQL_COLOR_URL]`, needed for the next step.
-- `heroku pg:promote [HEROKU_POSTGRESQL_COLOR_URL]` to set primary database.
+- `heroku addons:create heroku-postgresql` to initialize a Heroku postgreSQL database.
+- `heroku config` to verify your database variables have been initialized.
 - `git push heroku master` to push your application up to Heroku.
 - `heroku open` to open the application and view it on Heroku.
 
